@@ -1,7 +1,15 @@
-# file1 = open("myfile.txt","w") 
-# L = ["This is Delhi \n","This is Paris \n","This is London \n"]  
-# file1.writelines(L) 
-# file1.close()
-file1 = open("myfile.txt","r")
-file1.seek(0)
-print(file1.read())
+# a = 2
+# b = 3
+# if a == b :
+#     print("hello")
+# else:
+#     print("fgf")
+
+# print("A") if a > b else print("B")
+
+if 3>2:
+    print("3 greater")
+elif 2>3: #multiple condition before else
+    print("2 greater")
+else:
+    print("other")
