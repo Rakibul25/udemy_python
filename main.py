@@ -1,15 +1,16 @@
-# a = 2
-# b = 3
-# if a == b :
-#     print("hello")
-# else:
-#     print("fgf")
+list1 = [1,2,3,4]
 
-# print("A") if a > b else print("B")
+# for i in list1:
+#     print(i)
+# for i in list1:
+#     print("Hello "+ str(i))
 
-if 3>2:
-    print("3 greater")
-elif 2>3: #multiple condition before else
-    print("2 greater")
-else:
-    print("other")
+# for i in list1:
+#     if i%2 == 0:
+#         print(str(i) +" is even")
+#     else:
+#         print(str(i) +" is odd")
+
+str1 = "Hello World"
+for i in str1:
+    print(i) #for loop on string
